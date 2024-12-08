@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Button from "../components/Button";
 
-
 const Hero = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -24,7 +23,6 @@ const Hero = () => {
   return (
     <div className="relative bg-[url('./edusity_assets/hero.png')] bg-center bg-cover h-screen font-parkinsans w-full">
       <div className="absolute inset-0 bg-[rgb(57,41,76,0.7)]">
-        {/* Pass scroll state to Navbar */}
         <Navbar isScrolled={isScrolled} />
 
         <div className="relative flex flex-col justify-center items-center h-full text-center text-white">

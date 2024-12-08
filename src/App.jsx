@@ -10,18 +10,18 @@ import Footer from "./sections/Footer";
 const App = () => {
   return (
  <main >
-  <section className="mt-15">
+  <section className="mb-10">
     <Hero/>
   </section>
- <section className="h-screen padding">
+ <section className="padding max-container mb-10">
   <OurProgram/>
  </section>
 
- <section>
+ <section className="bg-black padding max-container">
   <AboutUniversity/>
  </section>
 
-<section>
+<section className="">
   <Gallery/>
 </section>
 <section>

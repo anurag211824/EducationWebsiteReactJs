@@ -53,7 +53,7 @@ const Navbar = ({ isScrolled }) => {
       </nav>
       {
       isNavbarOpen &&(<div className="lg:hidden absolute top-0 right-7 bg-white shadow-md rounded-lg p-4 z-20 mt-7">
-        <ul className="flex flex-col gap-4 text-lg">
+        <ul className="flex flex-col gap-4 text-lg font-parkinsans">
           {[
             "Home",
             "Program",

@@ -15,8 +15,9 @@ export default {
       },
       colors: {
         customBlue: '#1D4ED8',
+        headingColor: '#5036A1',
       },
     },
   },
   plugins: [],
-}
+};
